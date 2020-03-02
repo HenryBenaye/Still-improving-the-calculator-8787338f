@@ -22,7 +22,7 @@
         <?php
             $antwoord;
             $num1 = $_GET["nummer1"];
-            $num2 = $_GET["nummer2"];
+            $num2 = $_GET["nummer2"] ?? null;
             
             
             switch($_GET["operation"]) {
