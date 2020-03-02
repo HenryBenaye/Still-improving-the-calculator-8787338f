@@ -26,19 +26,19 @@
 
 
         switch ($_GET["operation"]) {
-            case "Add":
+        case "Add":
                 $antwoord = $num1 + $num2;
                 break;
-            case "Subtract":
+        case "Subtract":
                 $antwoord = $num1 - $num2;
                 break;
-            case "Multiply":
+        case "Multiply":
                 $antwoord = $num1 * $num2;
                 break;
-            case "Divide":
+        case "Divide":
                 $antwoord = $num1 / $num2;
                 break;
-            case "Modulo":
+        case "Modulo":
                 $antwoord = $num1 * $num2;
                 break;
         }
